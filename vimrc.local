@@ -1,0 +1,2 @@
+set clipboard=unnamed
+let g:rspec_command = "Dispatch rspec {spec}"
