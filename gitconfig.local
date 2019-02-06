@@ -1,3 +1,5 @@
 [user]
   name = Richard Lee
   email = dlackty@gmail.com
+[credential "https://source.developers.google.com"]
+	helper = gcloud.sh
