@@ -1,2 +1,3 @@
 export GOPATH=~/src/gopath/
-export PATH=$GOPATH/bin:$PATH
+export PATH=~/.local/bin:$GOPATH/bin:$PATH
+export CLICOLOR=1
