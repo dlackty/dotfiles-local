@@ -1,0 +1,5 @@
+zsh-users/zsh-syntax-highlighting
+laggardkernel/zsh-iterm2
+zsh-users/zsh-completions
+kiurchv/asdf.plugin.zsh
+robbyrussell/oh-my-zsh path:plugins/git
