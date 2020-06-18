@@ -1,5 +1,11 @@
 [user]
   name = Richard Lee
-  email = dlackty@gmail.com
+  email = 14349+dlackty@users.noreply.github.com
+  signingkey = 5E9675F7B08147CC17B164A1DC98611DC2DBBD82
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [credential "https://source.developers.google.com"]
-	helper = gcloud.sh
+  helper = gcloud.sh
