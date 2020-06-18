@@ -1,3 +1,5 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 export GOPATH=~/src/gopath/
-export PATH=~/.local/bin:$GOPATH/bin:$PATH
+export PATH=~/.cargo/bin:~/.poetry/bin:~/.local/bin:$GOPATH/bin:${KREW_ROOT:-$HOME/.krew}/bin:$PATH
 export CLICOLOR=1
