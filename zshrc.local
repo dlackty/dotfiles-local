@@ -31,3 +31,7 @@ unset __conda_setup
 
 . $(brew --prefix asdf)/asdf.sh
 . ~/.asdf/plugins/java/set-java-home.zsh
+
+export asdf_dir=$(brew --prefix asdf)
+source $(brew --prefix antidote)/share/antidote/antidote.zsh
+antidote load
