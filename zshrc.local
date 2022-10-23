@@ -3,6 +3,7 @@ export LANG=en_US.UTF-8
 export GOPATH=~/src/gopath/
 export PATH=~/.cargo/bin:~/.poetry/bin:~/.local/bin:$GOPATH/bin:${KREW_ROOT:-$HOME/.krew}/bin:$PATH
 export CLICOLOR=1
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 eval $(/opt/homebrew/bin/brew shellenv)
 echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.bash_profile
