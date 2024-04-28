@@ -37,8 +37,6 @@ else
     source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 fi
 
-alias ls=exa
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 antidote load
 
